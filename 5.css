@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.bx{
+    width: 1190px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.tou{
+    position: absolute;
+    right: 136px;
+    top: 5px;
+    font-size: 25px !important;
+    color: #fff;
+    background: rgba(59, 59, 59,0.5)
+}
+.promotional-top{
+    background-color: rgb(29, 50, 136);
+    height: 80px;
+    display: block;
+}
+.db{
+    border-top: none;
+}
+.io i{
+    color: red;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+#input{
+    position: relative;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    transition: top 0.3s;
+}
+#input_nav{
+    background-color: white;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    transition: top 0.3s; 
+    z-index: 101;
+}
+#input_nav.show {
+    top: 0;
+}
+#input>a{
+    position: absolute;
+    background-image: url(https://storage.360buyimg.com/channel2022/jd_home/0.0.43/assets/sprite/header/sprite.png);
+    background-position: 0 -120px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 125px;
+    top: 6px;
+    height: 40px;
+    text-indent: -999px;}
+#input .sousuokuang1{
+    top: 8px;
+    position: absolute;
+    left: 261px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+#input .sousuokuang1>input{
+    position: absolute;
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    color: #989898;
+    outline: none;
+}
+#input .sousuokuang1 button{
+    width: 58px;
+    height: 32px;
+    font-family: "icomoon";
+    font-style: normal;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background-color: red;
+    outline: none;
+    border: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#input .sousuokuang1 button i{
+    font-size: 25px;
+}
+#input .sousuokuang1 button:hover{
+    background-color: rgb(148, 7, 7);
+}
+#settleup1 {
+    position: absolute;
+    right: 228px;
+    z-index: 1;
+    top: 6px;
+    font-size: 13px;
+}
+#settleup1 .cw-icon {
+    width: 130px;
+    height: 36px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #eee;
+    position: relative;
+    z-index: 2;
+}
+#settleup1 .cw-icon:hover{
+    border-color:  #e1251b;
+    border-bottom: none;
+}
+#settleup1 .cw-icon .iconfont, #settleup1 .cw-icon a {
+    color: #e1251b;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#settleup1 .ci-count {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+#settleup1 .dropdown-layer3 {
+    top: 36px;
+    right: 0;
+    width: 308px;
+    border-color: #c81623;
+}.camera2{
+    display: block;
+    width: 19px;
+    height: 15px;
+    background: url(file:///C:/Users/%E8%B4%BA%E7%BB%95%E6%AC%A3/Desktop/%E7%BB%83%E4%B9%A0/JD.COM-master/JD.COM-master/module/header/images/sprite-photo-search.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+ .dropdown1:hover .dropdown-layer3 {
+    display: block;
+}
+.dropdown-layer3 {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+.cart_pop1 {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+}
+.cart_empty1 {
+    height: 49px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+.cart_empty_img1 {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    width: 56px;
+    height: 49px;
+    background-image: url(https://img11.360buyimg.com/uba/jfs/t3571/299/131233948/1117/a1196554/58004d6dN2927f0f7.png);
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+.dd1 li{
+    float: left;
+    width: 60px;
+    padding: 2px 0;
+}
+.dd1 a{
+    float: left;
+    padding: 0 8px;
+    color: #999;
+}
+.all{
+    width: 1190px;
+    height: 30px;
+    margin: auto;
+}
+.all-left{
+    width: 60px;
+    float: left;
+    position: relative;
+}
+.all-left .io{
+    font-size: 13px;
+}
+.dd1>ul>li{
+    font-size: 13px;
+}
+.all-left .dd1 a:hover{
+    background-color: #f4f4f4;
+    color: red;
+}
+.all-left .dd2 a:hover{
+    color: red;
+}
+.all-left2 a{
+    font-size: 13px;
+}
+.all-left:hover{
+    background-color: white;
+}
+.dd{
+    padding: 10px;
+    display: none;
+    margin-top: 30px;
+    width: 300px;
+    position: absolute;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    border: 1px solid #e7e7e7;
+}
+.dd2{
+    margin: 20px 0 10px 10px;
+}
+.dd2 p{
+    margin: 9px 0;
+    color: #8f8f8f;
+    font-size: 13px;
+}
+.dd2 li{
+    float: left;
+    width: 145px;
+    height: 26px;
+    line-height: 26px;
+}
+.dd2 li>a{
+    font-size: 13px;
+    padding: 0;
+}
+.all-left>:hover{
+    background-color: rgb(255, 255, 255);
+}
+.all-left:hover .dd{
+    display: block;
+}
+.all-left span{
+    font-family: "icomoon";
+    font-style: normal;
+    color: red;
+}
+.all-left a{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+    float: left;
+    padding: 0px 7px;
+}
+.all-left2{
+    float: left;
+    height: 30px;
+}
+.all-left2 a{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+    float: left;
+    padding: 0px 7px;
+}
+.all-left2 a:hover{
+    color: red;
+}
+.xia{
+    font-family: "icomoon";
+    font-style: normal;
+}
+.wd{
+    position: relative;
+}
+.wd:hover{
+    background-color: rgb(255, 255, 255);
+}
+.dd3{
+    display: none;
+    width: 190px;
+    position: absolute;
+    padding: 0 10px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    border: 1px solid #e7e7e7;
+}
+.dd4 .ul1,.ul2{
+    border-bottom: 1px solid #e7e7e7;
+
+}
+.dd5{
+    display: none;
+    padding: 0 10px;
+    width: 129px;
+    position: absolute;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+    border: 1px solid #e7e7e7;
+}
+.all-right .cg:hover .dd5{
+    display: block;
+}
+.all-right .dd5 li{
+    float: left;
+    margin:0 5px;
+}
+.all-right .dd4 li{
+    float: left;
+    list-style: none;
+    width: 62px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.all-right .wd:hover .dd3{
+    display: block;
+}
+.all-right{
+    float: right;
+}
+.all-right .iconfont{
+    font-size: 10px;
+}
+.all-right>ul>li{
+    float: right;
+    list-style: none;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.all-right a{
+    text-decoration: none;
+    color: #777;
+}
+.dt{
+    padding: 0 7px;
+}
+.dh{
+    position: absolute;
+    display: none;
+    width: 1000px;
+    top: 30px;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+}
+.dh .fore1,.fore2,.fore3,.fore4{
+    width: 250px;
+    float: left;
+}
+.wz{
+    position: relative;
+}
+.all-right .wz:hover .dh{
+    display: block;
+}
+.cg:hover{
+    background-color: #fff;
+}
+.kf:hover{
+    background-color: #fff;
+}
+.wz:hover{
+    background-color: #fff;
+}
+.item{
+    float: left;
+    width: 80px;
+}
+
+#lastli{
+    width: 130px;
+    margin-right: 8px;
+}
+.lasta{
+    color: red;
+}
+.spacer{
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.all-right ul>span{
+    float:right;
+    color: #777;
+    margin-top: 3px;
+}
+.all-right ul li a:hover{
+    color: red;
+}
+.kf{
+    position: relative;
+}
+.dropdown-layer{
+    width: 162px;
+    border: 1px solid #e7e7e7;
+    z-index: 99;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.dropdown-layer li{
+    float: left;
+}
+.all-right .kf:hover .dropdown-layer{
+    display: block;
+}
+.zhongjian{
+    width: 100%;
+}
+.input{
+    width: 1190px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+}
+.input a img{
+    height: 140px;
+    width: 190px;
+}
+.input>a{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sousuokuang{
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+.sousuokuang>input{
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    color: #989898;
+    outline: none;
+}
+.sousuokuang button{
+    width: 58px;
+    height: 32px;
+    font-family: "icomoon";
+    font-style: normal;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background-color: red;
+    outline: none;
+    border: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.sousuokuang button i{
+    font-size: 25px;
+}
+.sousuokuang button:hover{
+    background-color: rgb(148, 7, 7);
+}
+.camera{
+    display: block;
+    width: 19px;
+    height: 15px;
+    background: url(file:///C:/Users/%E8%B4%BA%E7%BB%95%E6%AC%A3/Desktop/%E7%BB%83%E4%B9%A0/JD.COM-master/JD.COM-master/module/header/images/sprite-photo-search.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+.sousuokuang a:hover{
+    background-position:-30px 0px ;
+
+}
+#settleup {
+    position: absolute;
+    right: 230px;
+    top: 25px;
+    z-index: 1;
+    font-size: 13px;
+}
+#settleup .cw-icon {
+    width: 130px;
+    height: 36px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #eee;
+    position: relative;
+    z-index: 2;
+}
+#settleup .cw-icon:hover{
+    border-color:  #e1251b;
+    border-bottom: none;
+}
+#settleup .cw-icon .iconfont, #settleup .cw-icon a {
+    color: #e1251b;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#settleup .ci-count {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+#settleup .dropdown-layer2 {
+    top: 36px;
+    right: 0;
+    width: 308px;
+    border-color: #c81623;
+}
+ .dropdown:hover .dropdown-layer2 {
+    display: block;
+}
+.dorpdown-layer, .dropdown-layer2 {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+.cart_pop {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+}
+.cart_empty {
+    height: 49px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+.cart_empty_img {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    width: 56px;
+    height: 49px;
+    background-image: url(https://img11.360buyimg.com/uba/jfs/t3571/299/131233948/1117/a1196554/58004d6dN2927f0f7.png);
+}
+.erweima{
+    position: absolute;
+    top: 7px;
+    right: 80px;
+    
+}
+.erweima img{
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.xiaozi{
+    font-size: 12px;
+    position: absolute;
+    left: 256px;
+    top: 65px;
+}
+.xiaozi a{
+    color: #777;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#xiaozia{
+    color: red;
+}
+.xiaozi a:hover{
+    color: red;
+}
+.navbot{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+.navbot li{
+    float: left;
+    list-style: none;
+    height: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbot ul>span{
+    display:block;
+    margin-left: 15px;
+    float: left;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbot a{
+    text-decoration: none;
+    color: #555A5F;
+    font-weight: normal;
+    font-size: 15px;
+}
+.computer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.navbot a:hover{
+    color: red;
+}
+
